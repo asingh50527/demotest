@@ -1,0 +1,521 @@
+﻿<html>
+	<head>
+		<title>hotel</title>
+	</head>
+	<style type="text/css">
+		#mainarea{
+			width: 100%;
+			height: 2100px;
+			background: #fffefe;
+			
+		}
+		.rightarea{
+			width:50px;
+			height:195px;
+			background:rgba(255, 255, 255,0.2);
+			position:fixed;
+			top:200px;
+			left:0px;
+			border-radius: 0 2px 2px 0;
+						
+		}
+		.facebook{
+			width: 40px;
+			height: 40px;
+			background: rgba(255, 255, 255,0.0);
+			margin:  10px 5px 5px 5px;
+		}
+		.facebook1 img{
+			width: 25px;
+			height: 25px;
+			background:rgba(255, 255, 255,0.0) ;
+			padding-top: 5px;
+			padding-right: 0px;
+			padding-left:5px;
+		}
+		.instagram{
+			width: 40px;
+			height: 40px;
+			background: rgba(255, 255, 255,0.0);
+			margin:  5px 5px 5px 5px;
+		}
+		.insta img{
+			width:25px;
+			height: 25px;
+			background:rgba(255, 255, 255,0.0) ;
+			padding-top: 5px;
+			padding-right: 0px;
+			padding-left:5px;
+		}
+		.twitter{
+			width: 40px;
+			height:40px;
+			background: rgba(255, 255, 255,0.0);
+			margin:  5px 5px 5px 5px;
+
+			/*border-radius: 20px;*/
+		}
+		.twitter img{
+			width:30px;
+			height: 25px;
+			background:rgba(255, 255, 255,0.0) ;
+			padding-top: 9px;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+		.youtube{
+			width: 40px;
+			height: 40px;
+			background: rgba(255, 255, 255,0.0);
+			margin:  5px 5px 10px 5px;
+		}
+		.youtube1 img{
+			width:25px;
+			height: 25px;
+			background:rgba(255, 255, 255,0.0) ;
+			padding-top: 5px;
+			padding-right: 0px;
+			padding-left: 5px;
+		}
+		#firstarea{
+			width: 100%;
+			height: 125px;
+			background: #3d1221;
+			/*background: linear-gradient(to left, #3d1221 stop, #e9427d stop);*/
+			border-radius: 50px 0 50px 0;
+			/*box-shadow: 4px 4px  4px 4px #3d1221 ;*/
+		}
+		.onearea{
+			width: 800px ;
+			height: 150px;
+			background: #3d1221;
+		}
+		.logolinearea{
+			width: 1240px;
+			height: 8px;
+			background: url(texture2.jpeg);
+			position: relative;
+			left: 50px;
+		}
+		.logoarea{
+			width: 170px;
+			height: 90px;
+			background:#E3C57E;
+			float: left;
+			position: relative;
+			left: 570px;
+			border-radius: 0 0 100px 100px;
+		}
+		.logo img{
+			width: 170px;
+			height: 90px;
+			border-radius:0 0 100px 100px ;
+			position:relative;
+			left: 0px;
+			
+			
+
+		}
+		.mariarea{
+			width: 425px;
+			height: 75px;
+			background: #3d1221;
+			position: relative;
+			left: 180px;
+			top: 10px;
+			padding:15px 0 15px 10px;
+			border-radius: 20px 0 20px 0;
+			margin: 0px;
+
+		}
+		.mari h1{
+			color: #fce5ed;
+			
+		
+		}
+		
+		#secondarea{
+			width: 100%;
+			height: 475px;
+			background: url(about-img-new.jpg);
+			background-size:cover;
+			border-radius:0 80px 0 80px ;
+			margin-bottom: 20px;
+		}
+		#thirdarea{
+			width: 100%;
+			height: 1200px;
+			background: #4c1629;
+		}
+		#menuarea{
+			width: 500px;
+			height: 40px;
+			background: #eec7d5;
+			float: left;
+			margin-top: -25px;
+			position: relative;
+			left: 400px;
+			border-radius: 30px 10px 30px 10px;
+		}
+		.gold line{
+			width: 500px;
+			height:40px ;
+			overflow: auto;
+		}
+		.welcome1{
+			font-family:cursive;
+			color:slateblue;
+			font-weight:300;
+		}
+		
+		#thirdarea1{
+			width:1200px;
+			height: 250px;
+			background: #5f1b33;
+			float: left;
+			margin-top: 50px;
+			border-right: 4px #fce5ed solid;
+			border-bottom: 4px #fce5ed solid;
+			/*margin-left: -40px;*/
+			/*margin-top: -30px;*/
+
+		}
+		.roompicarea{
+			width: 290px;
+			height: 230px;
+			background:#5f1b33 ;
+			/*border-radius: 20px;*/
+			float: left;
+			margin-top: 10px;
+			
+			
+		}
+		
+		#roomaboutarea{
+			width: 900px;
+			height: 250px;
+			background: #5f1b33;
+			float: right;
+			border-radius: -50px;
+		}
+		#roomabout1area h2{
+			padding: 2px 350px 0px 350px;
+			color:#fce5ed;
+			border-bottom:4px solid #fce5ed;	
+			font-family:cursive;
+			font-weight: 500;
+			margin-top: 0px;
+		}
+		#roomabout12area p{
+			font-family: cursive;
+			color:#fce5ed ;
+		}
+		
+		
+		#thirdarea2{
+			width: 1200px;
+			height: 250px;
+			background: #772240;
+			float:right;
+			margin-top: 50px;
+			margin-right: 0px;
+			border-top: 4px #fce5ed solid;
+			border-right: 4px #fce5ed solid;
+			margin-right:-360px ;
+			/*padding-left: 20px;*/
+
+		}
+		#dineaboutarea{
+			width: 900px;
+			height: 250px;
+			background: #772240;
+			float: left;
+			border-radius: -50px;
+		}
+		#dineabout1area h2{
+			padding: 2px 350px 0px 350px;
+			color: #fce5ed;
+			border-bottom:4px solid #fce5ed ;	
+			font-family:cursive;
+			font-weight: 500;
+			margin-top: 0px;
+		}
+		#dineabout12area p{
+			font-family: cursive;
+			color:#fce5ed ;
+		}
+		#dinepicarea{
+			width: 290px;
+			height: 230px;
+			background:#772240;
+			float: right;
+			margin-top: 10px;
+			
+			
+		}
+		#thirdarea3{
+			width:1200px;
+			height: 250px;
+			background: #952a50;
+			float:left;
+			margin-top: 50px;
+			border-left: 4px #fce5ed solid;
+			border-bottom: 4px #fce5ed solid;
+			/*margin-left: -20px;*/
+
+		}
+		#weddingpicarea{
+			width: 290px;
+			height: 230px;
+			background:#952a50 ;
+			/*border-radius: 20px;*/
+			float: left;
+			margin-top: 10px;
+			
+			
+		}
+		#weddingaboutarea{
+			width: 900px;
+			height: 250px;
+			background: #952a50;
+			float: right;
+			border-radius: -50px;
+		}
+		#weddingabout1area h2{
+			padding: 2px 350px 0px 350px;
+			color: #fce5ed;
+			border-bottom:4px solid #fce5ed ;	
+			font-family:cursive;
+			font-weight: 500;
+			margin-top: 0px;
+		}
+		#weddingabout12area p{
+			font-family: cursive;
+			color:#fce5ed ;
+		}
+		#thirarea{
+			width: 1300px;
+			height: 1000px;
+			background: url(texture1.jpeg);
+			border-radius: 50px 50px 0 0;
+			/*background-repeat: repeat-x;*/
+		
+		
+		}
+		
+		#texarea{
+			width: 1000px;
+			height: 940px;
+			background:url(texture2.jpeg) ;
+			float: left;
+			margin-top: 150px;
+		}
+		.fourtharea{
+			width:100%;
+			height:200px;
+			background: #ba3564;
+			margin-top:50px;
+			margin-top:-80px;
+		}
+		.map{
+			width: 1240px;
+			height: 200px;
+			position: relative;
+			left: 50px;
+		}
+		.fiftharea{
+			width:100%;
+			height:100px;
+			background: #e9427d;
+			margin-top:50px;
+		}
+		.menu{
+			width:700px;
+			height:50px;
+			background: #e9427d;
+			position:relative;
+			left:280px;
+		}
+		.home{
+			width:90px;
+			height: 35px;;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+
+		}
+		.home h3{
+			margin-top: 0px;
+			padding-left:23px;
+			color: slateblue;
+		}
+		.aboutus{
+			width:90px;
+			height:35px;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+			margin-left:30px;
+		}
+		.aboutus h3{
+			margin-top: 0px;
+			padding-left:5px; 
+			color: slateblue;
+		}
+		.facilities{
+			width:90px;
+			height:35px;;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+			margin-left:30px;
+		}
+		.facilities h3{
+			margin-top:0px;
+			padding-left:8px; 
+			color:slateblue;
+		}
+		.blogs{
+			width:90px;
+			height:35px;;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+			margin-left:30px;
+		}
+		.blogs h3{
+			margin-top:0px;
+			padding-left:25px; 
+			color:slateblue;
+		}
+		.photos{
+			width:90px;
+			height:35px;;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+			margin-left:30px;
+		}
+		.photos h3{
+			margin-top: 0px;
+			padding-left:18px;
+			color:slateblue; 
+		}
+		.contactus{
+			width:90px;
+			height:35px;;
+			background:rgba(255, 255, 255,0.0);
+			float:left;
+			margin-left:30px;
+		}
+		.contactus h3{
+			margin-top:0px;
+			padding-left:0px; 
+			color:slateblue;
+		}
+	</style>
+	<body>
+
+		<div class="rightarea">
+			
+			<div class="facebook">
+				<div class="facebook1">
+					<a href="http://facebook.com"><img src="facebook-logo.png" width="25px" height="25px"/></a>
+				</div>
+			</div>
+			<div class="instagram">
+				<div class="insta">
+					<a href="http://instagram.com"><img src="insta1-logo.png" height="30px" width="30px"/></a>
+				</div>
+
+			</div>
+			<div class="twitter">
+				<a href="http://twitter.com"><img src="twitter-logo.png" height="25px" width="30px"/></a>
+			</div>
+			<div class="youtube">
+				<a href="http://youtube.com"><div class="youtube1"><img src="youtube-logo.png"/></a></div>
+			</div>
+		</div>
+		<div id="mainarea">
+			<div id="firstarea">
+					<div class="logolinearea">
+						<div class="logoarea">
+							<div class="logo"><img src="texture2.jpeg"/></div>
+						</div>
+					</div>
+					
+				<div class="mariarea">
+					<div class="mari"><h1><b><i><strike>M</strike>arriott <strike>I</strike>nternational</i></b></h1></div>
+				</div>
+			</div>
+			<div id="secondarea"></div>
+			<div id="thirdarea">
+				<div id="menuarea">
+					<div class="welcome1">
+						<p>welcome</p>
+					</div>			
+				</div>
+				<div id="texarea">
+					<div id="thirdarea1">
+						<div class="roompicarea"><img src="deluxe room.jpeg" height="230px" width="290px"/>
+							
+						</div>	
+						
+						<div id="roomaboutarea">
+							<div id="roomabout1area">
+								<h2>Deluxe Room</h2>
+							</div>	
+							<div id="roomabout12area">	
+								<p><i> super deluxe rooms are crafted with all the amenities needed to make your stay comfortable and worth remembering along with the ambience of the beautiful valley views nestled among the pine trees.</p>
+								<p>The morning views with the sight of forests and the majestic mountains coupled with luxurious wooden floored rooms and the comfort of stay away from home makes our luxury rooms a definite yes.</i></p>
+							</div>	
+						
+						</div>
+						
+					</div>
+					
+				
+					<div id="thirdarea2">
+						<div id="dinepicarea"><img src="dine.jpeg" height="230px" width="290px"/></div>
+						<div id="dineaboutarea">
+						
+							<div id="dineabout1area">
+								<h2>Wine and Dine</h2>
+							</div>
+							<div id="dineabout12area">
+								<p><i> itinerary has mentioned about wine and dine sessions at the best hotels in country. </p>
+								<p>The wine and dine at this hotel is among the best that you will ever find. </p>
+								<p>Be it Coastal, Indian, or Chinese food, the unique and sumptuous recipes evolved to perfection over the generations, gives Goldfinch’s food experience an over-the-top touch.</i></p>
+							</div>
+				
+						</div>
+					</div>
+					
+					<div id="thirdarea3">
+						<div id="weddingpicarea"><img src="wedding.jpeg" height="230px" width="290px"/></div>
+							<div id="weddingaboutarea">
+								<div id="weddingabout1area">
+									<h2>Weddings</h2>
+								</div>
+								<div id="weddingabout12area">
+									<p><i>This is the ideal hotel if you are planning a small wedding reception.</p>
+									<p>Voted "Best place for a Wedding Reception" by LEO Weekly</p>
+									<p>Designed keeping royal weddings in mind, Woodville Palace is a majestic wedding venue in Shimla to host a lavish destination style celebration.</i></p>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="fourtharea">
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742875.9432575516!2d83.39080026660046!3d23.634716622182424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398b2386df480857%3A0x62c5b809eee29004!2sJharkhand!5e0!3m2!1sen!2sin!4v1632446819042!5m2!1sen!2sin" width="1240px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>	
+			</div>
+			<div class="fiftharea">
+				<div class="menu">
+					<div class="home"><a href="../my first website.html"><h3>Home</h3></a></div>
+					<div class="aboutus"><a href="../(about us)my first website.html"><h3>About Us</h3></a></div>
+					<div class="facilities"><a href="../(faclities)my first website.html"><h3>Facilities</h3></a></div>
+					<div class="blogs"><a href="../(blogs)my first website.html"><h3>Blogs</h3></a></div>
+					<div class="photos"><a href="../(photos)my first website.html"><h3>Photos</h3></a></div>
+					<div class="contactus"><a href="../(contact us)my first website.html"><h3>Contact 	Us</h3></a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
